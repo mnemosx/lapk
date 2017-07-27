@@ -1,0 +1,14 @@
+meklēt pēc panta numura
+meklēt pēc atslēgvārda
+
+režga skats
+rindu skats
+rādīt tikai atzīmētos
+
+kārtot pēc kārtas
+kārtot pēc popularitātes (pēc statistikas)
+
+headeris fiksēts mazajā versijā, kad pele uz panta, augšējā kreisajā stūrī rāda, kura nodaļa tā ir.
+
+
+lerning mode -- iespēja paslēpt panta Nr., nosaukumu, tekstu, tekstu bez atslēgvārdiem, atslēgvāŗdus

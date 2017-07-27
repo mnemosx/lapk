@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 308" preserveAspectRatio="xMidYMid">
+  <path fill="#136a8f" d="M23.047171 78.097842l44.745004-19.378v-22.607l60.301995-14.344 61.296 14.371v22.497l45.179 20.174c1.316 11.022 3.225 38.671998-4.806 72.025998-1.149 4.769-2.456 9.471-3.92 14.101-6.26137 22.71689-17.27021 44.7433-36.11998 67.4756-20.83932 26.51076-45.85277 44.02135-61.12697 49.75425-17.0544-2.3526-99.679892-71.95077-106.595049-156.28585-2.372-22.349-.299-39.795998 1.046-47.783998m230.961999-8.312l-1.013-5.255-43.054-19.225v-25.457L128.06017.65284234 47.240175 19.875842v25.347l-41.9440042 18.166-1.242 4.897c-.373 1.472-9.023 36.601998 1.374 83.446998 6.0910002 27.44 17.4810002 53.287 33.8580042 76.821 20.33 29.217 48.403 54.867 83.439995 76.241l5.174 3.157 5.265-3c34.014-19.385 61.561-43.779 81.877-72.504 16.31-23.061 27.984-48.9 34.702-76.799 11.432-47.481 4.564-84.317998 4.265-85.862998"/>
+  <path fill-opacity=".15" d="M128.97901.97881353l-.427 307.29899647c159.967-87.97 125.097-243.420997 125.097-243.420997l-43.055-19.224v-25.458L128.97901.97881353z"/>
+  <text x="82.514549" y="149.01852" fill="#3189aa" style="line-height:125%" transform="skewX(-10.284) scale(1.11025 .9007)" font-size="85.26557922" font-family="sans-serif" letter-spacing="0" word-spacing="0">
+    <tspan x="82.514549" y="149.01852"><tspan x="82.514549" y="149.01852" style="-inkscape-font-specification:'Lato Heavy'" font-weight="900" font-family="Lato">L</tspan></tspan>
+  </text>
+  <text x="148.49457" y="134.25386" fill="#3189aa" style="line-height:125%" transform="skewX(-3.744) scale(.9959 1.00412)" font-size="77.11434937" font-family="sans-serif" letter-spacing="0" word-spacing="0">
+    <tspan x="148.49457" y="134.25386"><tspan x="148.49457" y="134.25386" style="-inkscape-font-specification:'Lato Heavy'" font-weight="900" font-family="Lato">A</tspan></tspan>
+  </text>
+  <text x="104.86124" y="209.38194" fill="#5bc5df" style="line-height:125%" transform="skewX(-10.97) scale(1.00663 .9934)" font-size="76.29279327" font-family="sans-serif" letter-spacing="0" word-spacing="0">
+    <tspan x="104.86124" y="209.38194"><tspan x="104.86124" y="209.38194" style="-inkscape-font-specification:'Lato Heavy'" font-weight="900" font-family="Lato">P</tspan></tspan>
+  </text>
+  <text x="174.46053" y="208.54362" fill="#5bc5df" style="line-height:125%" transform="skewX(-10.284)" font-size="76.79830933" font-family="sans-serif" letter-spacing="0" word-spacing="0">
+    <tspan x="174.46053" y="208.54362"><tspan x="174.46053" y="208.54362" style="-inkscape-font-specification:'Lato Heavy'" font-weight="900" font-family="Lato">K</tspan></tspan>
+  </text>
+</svg>
