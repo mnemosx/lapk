@@ -97,7 +97,8 @@ input::placeholder {
   width: 1250px;
   margin: 50px auto;
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: flex-start;
 }
 
 .tile {
@@ -116,6 +117,13 @@ input::placeholder {
   cursor: pointer;
   transform: translateY(-4px);
   transition: all .25s ease-in;
+}
+@media (hover: none) {
+  .tile {
+    cursor: default;
+    transform: none;
+    transition: none;
+  }
 }
 .tile-number {
   height: 50px;
@@ -136,6 +144,10 @@ input::placeholder {
   font-size: 14px;
   margin-top: -13px;
 }
+/*.modal__inner h2, .modal__inner p {
+  display: block;
+  background-color: red
+}*/
 .tile-name, .modal h2 {
   align-self: center;
   margin: 0 10px 10px;
@@ -178,14 +190,6 @@ input::placeholder {
   font-weight: 600;
   color: #154957;
 }
-
-
-
-
-
-
-
-
 
 
 

@@ -44,7 +44,7 @@
       <input class="modal-state" id="modal-1" type="checkbox" />
       <div class="modal">
         <label class="modal__bg" for="modal-1"></label>
-        <div class="modal__inner">
+        <div class="modal__inner searchable">
           <label class="modal__close" for="modal-1"></label>
           <h2 class="searchable">1.pants. Administratīvo pārkāpumu likumdošanas uzdevumi</h2>
           <p class="searchable">Administratīvo pārkāpumu likumdošanas <span class="accent">uzdevums ir aizsargāt sabiedrisko iekārtu, īpašumu, pilsoņu sociāli ekonomiskās, politiskās un personiskās tiesības un brīvības, kā arī komersantu, iestāžu un organizāciju tiesības un likumīgās intereses, noteikto pārvaldes kārtību, valsts un sabiedrisko kārtību, nostiprināt likumību, novērst tiesību pārkāpumus, audzināt pilsoņus</span> likumu precīzas un stingras ievērošanas garā, ieaudzināt viņos cieņas pilnu attieksmi pret citu pilsoņu tiesībām, godu un pašcieņu, pret sadzīves noteikumiem, apzinīgu attieksmi pret saviem pienākumiem un atbildību sabiedrības priekšā.</p>
@@ -67,13 +67,13 @@
           <label class="modal__close" for="modal-5"></label>
           <h2 class="searchable">5.pants. Pašvaldību domju tiesības paredzēt administratīvo atbildību</h2>
           <p class="searchable">Pašvaldību domes ir tiesīgas izdot saistošos noteikumus un paredzēt administratīvo atbildību par to pārkāpšanu likumā "Par pašvaldībām" noteiktajos gadījumos.</p>
-          <div class="saistiti">Saistīti normatīvie akti: <a href="https://likumi.lv/doc.php?id=57255" target="_blank">Par pašvaldībām</a></div>
+          <div class="saistiti">Saistītie normatīvie akti: <a href="https://likumi.lv/doc.php?id=57255" target="_blank">Par pašvaldībām</a></div>
         </div>
       </div>
      
       <label class="tile showhide showhide" for="modal-7">
-        <div class="tile-number">7</div>
-        <div class="tile-name">Ietekmēšanas līdzekļi</div>
+        <div class="tile-number searchable">7</div>
+        <div class="tile-name searchable">Ietekmēšanas līdzekļi</div>
         <div class="tile-text searchable">
           Ietekmēšanas līdzekli par administratīvo pārkāpumu piemēro un lietvedību veic tikai uz likuma pamata.<br>
           Ietekmēšanas līdzekļus piemēro kompetences ietvaros.
@@ -95,78 +95,239 @@
       </div>
       
       <label class="tile showhide" for="modal-8">
-        <div class="tile-number">8</div>
-        <div class="tile-name">Likuma spēks</div>
+        <div class="tile-number searchable">8</div>
+        <div class="tile-name searchable">Likuma spēks</div>
         <div class="tile-text searchable">
-          Pārkāpējs ir atbildīgs saskaņā ar likumu, kas ir spēkā pārkāpuma laikā un vietā.
-          Aktiem, kas mīkstina atbildību vai atbrīvo no tās, ir atpakaļejošs spēks. Aktiem, kas pastiprina atbildību, nav.
+          Pārkāpēja atbildību nosaka pārkāpuma <span class="accent">laikā un vietā aktuālais likums</span>.
+          Aktiem, kas <span class="accent">mīkstina atbildību vai atbrīvo</span> no tās, ir <span class="accent">atpakaļejošs spēks</span>. Aktiem, kas <span class="accent">pastiprina atbildību, nav</span>.
           Lietvedība veicama pēc likuma, kas spēkā lietas izskatīšanas laikā un vietā.
         </div>
       </label>
+      
+      <input class="modal-state" id="modal-8" type="checkbox" />
+      <div class="modal">
+        <label class="modal__bg" for="modal-8"></label>
+        <div class="modal__inner">
+          <label class="modal__close" for="modal-8"></label>
+          <h2>8.pants. Likuma spēks, piemērojot atbildību par administratīvajiem pārkāpumiem</h2>
+          <p><span class="accent">Persona, kura izdarījusi administratīvo pārkāpumu, ir atbildīga saskaņā ar likumu, kas ir spēkā pārkāpuma</span> izdarīšanas <span class="accent">laikā un vietā</span>.</p>
+          <p><span class="accent">Aktiem, kas mīkstina atbildību</span> par administratīvajiem pārkāpumiem vai <span class="accent">atbrīvo no tās, ir atpakaļejošs spēks</span>, tas ir, tie attiecas arī uz pārkāpumiem, kas izdarīti pirms šo aktu izdošanas. Aktiem, <span class="accent">kas nosaka vai pastiprina atbildību</span> par administratīvajiem pārkāpumiem, <span class="accent">atpakaļejoša spēka nav</span>.</p>
+          <p>Lietvedība par administratīvajiem pārkāpumiem veicama saskaņā ar likumu, kas spēkā pārkāpuma lietas izskatīšanas laikā un vietā.</p>
+        </div>
+      </div>
+      
       <label class="tile showhide" for="modal-9">
-        <div class="tile-number">9</div>
-        <div class="tile-name">Pārkāpums</div>
+        <div class="tile-number searchable">9</div>
+        <div class="tile-name searchable">Pārkāpums</div>
         <div class="tile-text searchable">
-          <span class="accent">Aizsargāt</span> sabiedrisko iekārtu, īpašumu, <span class="accent">tiesības</span> un brīvības, komersantu, pārvaldes, valsts un sabiedrisko kārtību, nostiprināt likumību, novērst pārkāpumus, <span class="accent">audzināt pilsoņus</span>.
-          Kodekss nosaka, <span class="accent">kas atzīstams</span> par pārkāpumu, <span class="accent">kādu sodu</span>, kas un kā <span class="accent">var uzlikt</span>.
+          Administratīvais pārkāpums ir <span class="accent">prettiesiska, vainojama</span> darbība vai bezdarbība, kura <span class="accent">apdraud</span> valsts vai sabiedrisko <span class="accent">kārtību</span>, īpašumu, pilsoņu <span class="accent">tiesības un brīvības</span>. Par to likumā <span class="accent">paredzēta administratīvā atbildība</span>.
+          Tā iestājas, <span class="accent">ja</span> par šiem pārkāpumiem <span class="accent">nav paredzēta kriminālatbildība</span>.
         </div>
       </label>
+      
+      <input class="modal-state" id="modal-9" type="checkbox" />
+      <div class="modal">
+        <label class="modal__bg" for="modal-9"></label>
+        <div class="modal__inner">
+          <label class="modal__close" for="modal-9"></label>
+          <h2>9.pants. Administratīvā pārkāpuma jēdziens</h2>
+          <p>Par administratīvo pārkāpumu atzīstama <span class="accent">prettiesiska, vainojama</span> (ar nodomu vai aiz neuzmanības izdarīta) <span class="accent">darbība vai bezdarbība</span>, kura <span class="accent">apdraud</span> valsts vai sabiedrisko <span class="accent">kārtību</span>, īpašumu, pilsoņu <span class="accent">tiesības un brīvības</span> vai noteikto pārvaldes kārtību un par kuru likumā <span class="accent">paredzēta administratīvā atbildība</span>.</p>
+          <p>Administratīvā atbildība par šajā kodeksā norādītajiem pārkāpumiem iestājas, <span class="accent">ja</span> par šiem pārkāpumiem pēc to rakstura saskaņā ar spēkā esošajiem likumiem <span class="accent">nav paredzēta kriminālatbildība</span>.</p>
+          <p>Paaugstinātas bīstamības avota īpašnieka (valdītāja) administratīvās atbildības īpatnības var noteikt citos likumos.</p>
+        </div>
+      </div>
+      
       <label class="tile showhide" for="modal-10">
-        <div class="tile-number">10</div>
-        <div class="tile-name">Pārkāpums ar nodomu</div>
+        <div class="tile-number searchable">10</div>
+        <div class="tile-name searchable">Pārkāpums ar nodomu</div>
         <div class="tile-text searchable">
-          Aizsargāt sabiedrisko iekārtu, īpašumu, tiesības un brīvības, komersantu, pārvaldes, valsts un sabiedrisko kārtību, nostiprināt likumību, novērst pārkāpumus, audzināt pilsoņus.
-          Kodekss nosaka, kas atzīstams par pārkāpumu, kādu sodu, kas un kā var uzlikt.
+          Pārkāpums izdarīts ar nodomu, ja <span class="accent">pārkāpējs apzinājies</span> tā <span class="accent">prettiesiskumu</span>, paredzējis un vēlējies vai pieļāvis kaitīgās sekas.
         </div>
       </label>
+      
+      <input class="modal-state" id="modal-10" type="checkbox" />
+      <div class="modal">
+        <label class="modal__bg" for="modal-10"></label>
+        <div class="modal__inner">
+          <label class="modal__close" for="modal-10"></label>
+          <h2>10.pants. Administratīvā pārkāpuma izdarīšana ar nodomu</h2>
+          <p>Administratīvais <span class="accent">pārkāpums atzīstams par izdarītu ar nodomu, ja persona</span>, kas to izdarījusi, ir <span class="accent">apzinājusies</span> savas darbības vai bezdarbības <span class="accent">prettiesisko raksturu, paredzējusi tās kaitīgās sekas</span> un <span class="accent">vēlējusies vai apzināti pieļāvusi šo <span class="accent">seku iestāšanos</span>.</p>
+        </div>
+      </div>
+      
       <label class="tile showhide" for="modal-11">
-        <div class="tile-number">11</div>
-        <div class="tile-name">Pārkāpums aiz neuzmanības</div>
+        <div class="tile-number searchable">11</div>
+        <div class="tile-name searchable">Pārkāpums aiz neuzmanības</div>
         <div class="tile-text searchable">
-          Aizsargāt sabiedrisko iekārtu, īpašumu, tiesības un brīvības, komersantu, pārvaldes, valsts un sabiedrisko kārtību, nostiprināt likumību, novērst pārkāpumus, audzināt pilsoņus.
-          Kodekss nosaka, kas atzīstams par pārkāpumu, kādu sodu, kas un kā var uzlikt.
+          Pārkāpums izdarīts aiz neuzmanības, ja <span class="accent">pārkāpējs</span> paredzējis kaitīgo seku iespējamību, bet <span class="accent">paļāvies, ka</span> tās <span class="accent">varēs novērst</span>, <span class="accent">vai nav kaitīgās sekas paredzējis</span> vispār, kaut vajadzēja un varēja.
         </div>
       </label>
+      
+      <input class="modal-state" id="modal-11" type="checkbox" />
+      <div class="modal">
+        <label class="modal__bg" for="modal-11"></label>
+        <div class="modal__inner">
+          <label class="modal__close" for="modal-11"></label>
+          <h2>11.pants. Administratīvā pārkāpuma izdarīšana aiz neuzmanības</h2>
+          <p>Administratīvais pārkāpums atzīstams par izdarītu aiz neuzmanības, ja <span class="accent">persona</span>, kas to izdarījusi, <span class="accent">ir paredzējusi</span> savas darbības vai bezdarbības <span class="accent">kaitīgo seku</span> iestāšanās <span class="accent">iespēju, bet</span> vieglprātīgi <span class="accent">paļāvusies, ka tās varēs novērst</span>, vai arī <span class="accent">nav paredzējusi</span> šādu <span class="accent">seku</span> iestāšanās <span class="accent">iespēju, kaut</span> gan tai <span class="accent">vajadzēja</span> un tā varēja tās paredzēt.</p>
+        </div>
+      </div>
+      
       <label class="tile showhide" for="modal-12">
-        <div class="tile-number">12</div>
-        <div class="tile-name">Vecums</div>
+        <div class="tile-number searchable">12</div>
+        <div class="tile-name searchable">Vecums</div>
         <div class="tile-text searchable">
-          Aizsargāt sabiedrisko iekārtu, īpašumu, tiesības un brīvības, komersantu, pārvaldes, valsts un sabiedrisko kārtību, nostiprināt likumību, novērst pārkāpumus, audzināt pilsoņus.
-          Kodekss nosaka, kas atzīstams par pārkāpumu, kādu sodu, kas un kā var uzlikt.
+          Pie administratīvās atbildības saucamas personas, kuras līdz administratīvā pārkāpuma izdarīšanas brīdim sasniegušas <span class="accent">četrpadsmit gadu</span> vecumu.
         </div>
       </label>
+      
       <label class="tile showhide" for="modal-12-1">
-        <div class="tile-number">12<span class="prim">1</span></div>
-        <div class="tile-name">Audzinoši līdzekļi nepilngadīgajiem</div>
+        <div class="tile-number searchable">12<span class="prim">1</span></div>
+        <div class="tile-name searchable">Audzinoši līdzekļi nepilngadīgajiem</div>
         <div class="tile-text searchable">
-          Aizsargāt sabiedrisko iekārtu, īpašumu, tiesības un brīvības, komersantu, pārvaldes, valsts un sabiedrisko kārtību, nostiprināt likumību, novērst pārkāpumus, audzināt pilsoņus.
-          Kodekss nosaka, kas atzīstams par pārkāpumu, kādu sodu, kas un kā var uzlikt.
+          No <span class="accent">11 līdz 18</span> gadiem piemēro audzinoša rakstura piespiedu līdzekļus. Ja tas nav lietderīgi, no <span class="accent">14 līdz 18</span> gadiem piemēro administratīvo sodu.
         </div>
       </label>
-      <label class="tile showhide" for="modal-14">
-        <div class="tile-number">14</div>
-        <div class="tile-name">Amatpersonu atbildība</div>
+      
+      <input class="modal-state" id="modal-12-1" type="checkbox" />
+      <div class="modal">
+        <label class="modal__bg" for="modal-12-1"></label>
+        <div class="modal__inner">
+          <label class="modal__close" for="modal-12-1"></label>
+          <h2>12.<span class="prim">1</span> pants. Audzinoša rakstura piespiedu līdzekļu piemērošana nepilngadīgajiem</h2>
+          <p>Nepilngadīgajiem vecumā <span class="accent">no 14 līdz 18 gadiem</span> par administratīvo pārkāpumu izdarīšanu <span class="accent">piemēro audzinoša rakstura piespiedu līdzekļus</span>. Administratīvo <span class="accent">sodu nepilngadīgajam vecumā no 14 līdz 18 gadiem piemēro, ja audzinoša rakstura piespiedu līdzekļa piemērošana konkrētajā gadījumā nav lietderīga</span>.</p>
+          <p>Audzinoša rakstura piespiedu līdzekļus var piemērot arī nepilngadīgajiem vecumā no 11 līdz 14 gadiem, ja viņi izdarījuši pārkāpumu, par kuru paredzēta administratīvā atbildība.</p>
+        </div>
+      </div>
+      
+      <label class="tile showhide" for="modal-17">
+        <div class="tile-number searchable">17</div>
+        <div class="tile-name searchable">Galējā nepieciešamība</div>
         <div class="tile-text searchable">
-          Aizsargāt sabiedrisko iekārtu, īpašumu, tiesības un brīvības, komersantu, pārvaldes, valsts un sabiedrisko kārtību, nostiprināt likumību, novērst pārkāpumus, audzināt pilsoņus.
-          Kodekss nosaka, kas atzīstams par pārkāpumu, kādu sodu, kas un kā var uzlikt.
+          Pie atbildības nesauc personu, kas pārkāpumu izdarījusi <span class="accent">galējas nepieciešamības stāvoklī</span>, ja briesmas nav bijušas citādi novēršamas un <span class="accent">kaitējums ir mazāks par kaitējummu, kas novērsts</span>.
         </div>
       </label>
-      <label class="tile showhide" for="modal-14-1">
-        <div class="tile-number">14<span class="prim">1</span></div>
-        <div class="tile-name">Juridisko personu atbildība</div>
+      
+      <input class="modal-state" id="modal-17" type="checkbox" />
+      <div class="modal">
+        <label class="modal__bg" for="modal-17"></label>
+        <div class="modal__inner">
+          <label class="modal__close" for="modal-17"></label>
+          <h2>17.pants. Galējā nepieciešamība</h2>
+          <p><span class="accent">Pie administratīvās atbildības nav saucama persona</span>, kaut arī tā izdarījusi šajā kodeksā vai citos normatīvajos aktos, kas nosaka administratīvo atbildību par administratīvajiem pārkāpumiem, paredzētu darbību, <span class="accent">ja tā rīkojusies galējās nepieciešamības stāvoklī</span>, tas ir, lai novērstu briesmas, kas draud valsts vai sabiedriskajai kārtībai, īpašumam, pilsoņu tiesībām un brīvībām, noteiktajai pārvaldes kārtībai, <span class="accent">ja šīs briesmas konkrētajos apstākļos nav bijis iespējams novērst ar citiem līdzekļiem</span> un <span class="accent">ja</span> nodarītais <span class="accent">kaitējums ir mazāks nekā novērstais</span>.</p>
+        </div>
+      </div>
+      
+      <label class="tile showhide" for="modal-19">
+        <div class="tile-number searchable">19</div>
+        <div class="tile-name searchable">Nepieskaitāmība</div>
         <div class="tile-text searchable">
-          Aizsargāt sabiedrisko iekārtu, īpašumu, tiesības un brīvības, komersantu, pārvaldes, valsts un sabiedrisko kārtību, nostiprināt likumību, novērst pārkāpumus, audzināt pilsoņus.
-          Kodekss nosaka, kas atzīstams par pārkāpumu, kādu sodu, kas un kā var uzlikt.
+          <span class="accent">Pie</span> administratīvās <span class="accent">atbildības nav saucama persona, kas</span> prettiesiskas darbības vai bezdarbības laikā <span class="accent">atradusies nepieskaitāmības stāvoklī</span>, tas ir, nav varējusi apzināties savu darbību vai to vadīt hroniskas gara slimības, pārejošu gara darbības traucējumu, plānprātības vai citāda slimīga stāvokļa dēļ.  
         </div>
       </label>
-      <label class="tile showhide" for="modal-15">
-        <div class="tile-number">15</div>
-        <div class="tile-name">Karavīru atbildība</div>
+      
+      <label class="tile showhide" for="modal-21">
+        <div class="tile-number searchable">21</div>
+        <div class="tile-name searchable">Atbrīvošana no atbildības.</div>
         <div class="tile-text searchable">
-          Aizsargāt sabiedrisko iekārtu, īpašumu, tiesības un brīvības, komersantu, pārvaldes, valsts un sabiedrisko kārtību, nostiprināt likumību, novērst pārkāpumus, audzināt pilsoņus.
-          Kodekss nosaka, kas atzīstams par pārkāpumu, kādu sodu, kas un kā var uzlikt.
+          Ja pārkāpums ir maznozīmīgs, <span class="accent">personu var atbrīvot</span> no atbildības, iztiekot ar mutvārdu aizrādījumu. Ceļu satiksmē maznozīmīgs var būt pārkāpums, kura sods ir <span class="accent">līdz 40 &euro;</span> un kurš nav radījis draudus citiem.
         </div>
       </label>
+      
+      <input class="modal-state" id="modal-21" type="checkbox" />
+      <div class="modal">
+        <label class="modal__bg" for="modal-21"></label>
+        <div class="modal__inner">
+          <label class="modal__close" for="modal-21"></label>
+          <h2>21.pants. Iespēja atbrīvot no administratīvās atbildības maznozīmīga pārkāpuma gadījumā</h2>
+          <p><span class="accent">Ja</span> ziņas par administratīvo pārkāpumu ir pietiekamas, lai konstatētu, ka izdarītais <span class="accent">pārkāpums ir maznozīmīgs</span>, institūcija (amatpersona), kurai piekritīga lietas izskatīšana, ir tiesīga neuzsākt administratīvā pārkāpuma lietvedību vai izbeigt uzsākto lietvedību un atbrīvot personu no administratīvās atbildības, aprobežojoties ar <span class="accent">mutvārdu aizrādījumu</span>.</p>
+          <p><span class="accent">Ceļu satiksmē</span> izdarīto administratīvo pārkāpumu, <span class="accent">ja</span> par to paredzētais naudas <span class="accent">sods nepārsniedz četrdesmit euro un ja</span> šis pārkāpums <span class="accent">nav</span> radījis <span class="accent">draudu</span>s <span class="accent">citiem</span> ceļu satiksmes dalībniekiem vai viņu mantai, var atzīt par maznozīmīgu.</p>
+        </div>
+      </div>
+      
+      <label class="tile showhide" for="modal-23">
+        <div class="tile-number searchable">23</div>
+        <div class="tile-name searchable">Administratīvie sodi</div>
+        <div class="tile-text searchable">
+          <span class="accent">Brīdinājums</span>;
+          <span class="accent">naudas sods</span>;
+          pārkāpuma priekšmeta <span class="accent">konfiskācija</span>;
+          <span class="accent">speciālo tiesību atņemšana</span>;
+          aizliegums iegūt <span class="accent">transportlīdzekļu</span> vadīšanas <span class="accent">tiesības</span>;
+          aizliegums iegūt <span class="accent">atpūtas kuģu</span> vadīšanas <span class="accent">tiesības</span>;
+          aizliegums iegūt <span class="accent">tiesības būt lidmašīnu apkalpē</span>;
+          tiesību atņemšana ieņemt noteiktus <span class="accent">amatus</span>;
+          administratīvais <span class="accent">arests</span>.
+        </div>
+      </label>
+
+      <input class="modal-state" id="modal-23" type="checkbox" />
+      <div class="modal">
+        <label class="modal__bg" for="modal-23"></label>
+        <div class="modal__inner">
+          <label class="modal__close" for="modal-23"></label>
+          <h2>23.pants. Administratīvo sodu veidi</h2>
+          <p>Par administratīvo pārkāpumu izdarīšanu var piemērot šādus administratīvos sodus:<br>
+            1) <span class="accent">brīdinājumu</span>;<br>
+            2) <span class="accent">naudas sodu</span>;<br>
+            4) administratīvā pārkāpuma priekšmeta vai izdarīšanas rīka <span class="accent">konfiskāciju</span>;<br>
+            5) personai piešķirto <span class="accent">speciālo tiesību atņemšanu</span>;<br>
+            5.<span class="prim">1</span>) aizliegumu noteiktu laiku iegūt <span class="accent">transportlīdzekļu vadīšanas tiesības</span>;<br>
+            5.<span class="prim">2</span>) aizliegumu noteiktu laiku iegūt <span class="accent">atpūtas kuģu vadīšanas tiesības</span>;<br>
+            5.<span class="prim">3</span>) aizliegumu noteiktu laiku iegūt tiesības veikt civilās aviācijas <span class="accent">gaisa kuģa lidojumu apkalpes</span> locekļa pienākumus;<br>
+            6) tiesību atņemšanu <span class="accent">ieņemt noteiktus amatus</span>;<br>
+            8) <span class="accent">administratīvo arestu</span>.</p>
+          <p>Šā panta pirmās daļas 4.-6. un 8.punktā minētos administratīvos sodus var noteikt tikai ar likumu.</p>
+        </div>
+      </div>
+      
+      <label class="tile showhide" for="modal-26">
+        <div class="tile-number searchable">26</div>
+        <div class="tile-name searchable">Naudas sods</div>
+        <div class="tile-text searchable">
+          Maksimālais sods fiz. personām ir <span class="accent">700 &euro;</span>, jur. personām — <span class="accent">14000 &euro;</span>.
+          Par pašvaldību domes noteikumu pārkāpšanu attiecīgi - 350 &euro; un 1400 &euro;. Minimālais sods ir <span class="accent">2 &euro;</span>. 
+          <span class="accent">Finanšu</span> vai nodokļu jomā <span class="accent">sodu nosaka procentuāli</span> (bez limita, bet nepārsniedzot 30%) <span class="accent">no</span> darījuma <span class="accent">vērtības</span>, iepriekšējā gada neto <span class="accent">apgrozījuma</span> vai saimniecisko darījumu apgrozījuma.
+        </div>
+      </label>
+
+      <input class="modal-state" id="modal-26" type="checkbox" />
+      <div class="modal">
+        <label class="modal__bg" for="modal-26"></label>
+        <div class="modal__inner">
+          <label class="modal__close" for="modal-26"></label>
+          <h2>26.pants. Naudas sods</h2>
+          <p><span class="accent">Maksimālais sods</span>, ko saskaņā ar Latvijas Republikas likumiem par administratīvajiem pārkāpumiem (izņemot šā kodeksa 45.1, 57., 61., 62., 66.4, 75., 75.2, 78.1, 81., 82., 82.1, 82.2, 84., 87., 87.1, 88.7, 103.3, 114.2, 114.3pantā, 114.6 panta pirmajā un trešajā daļā, 149.5 panta piektajā daļā, 149.8, 149.15, 150.2, 150.3, 152., 155.16 pantā, 156.1 panta piektajā un sestajā daļā, 156.2 panta otrajā daļā, 159.pantā, 159.8 panta septītajā daļā, 159.10 pantā un 165.4 panta otrajā daļā paredzētos administratīvos pārkāpumus) uzliek <span class="accent">fiziskajām personām, ir septiņsimt euro, bet juridiskajām personām</span> (izņemot šā kodeksa 114.2 pantā un 159.8 panta septītajā daļā paredzēto administratīvo pārkāpumu) — <span class="accent">četrpadsmit tūkstoši euro. Minimālais sods</span>, ko uzliek par administratīvajiem pārkāpumiem, <span class="accent">ir divi euro</span>.</p>
+          <p>Kodeksā īpaši paredzētos gadījumos <span class="accent">sodu par pārkāpumiem finanšu jomā vai nodokļu jomā nosaka procentuāli no finanšu darījuma vērtības</span> (summas) vai iepriekšējā pārskata <span class="accent">gada neto apgrozījuma</span>, vai apgrozījuma (ieņēmumiem) no saimnieciskajiem darījumiem iepriekšējā pārskata gadā, <span class="accent">neievērojot</span> šā panta pirmās daļas <span class="accent">nosacījumu par maksimālo soda apmēru</span>, bet nepārsniedzot trīsdesmit procentus no finanšu darījumu vērtības (summas) vai iepriekšējā pārskata gada neto apgrozījuma, vai apgrozījumiem (ieņēmumiem) no saimnieciskajiem darījumiem iepriekšējā pārskata gadā.</p>
+          <p>Pašvaldību domes var apstiprināt saistošos noteikumus, kuros par to pārkāpšanu var noteikt naudas sodus fiziskajām personām līdz trīssimt piecdesmit euro, bet juridiskajām personām — līdz tūkstoš četrsimt euro.</p>
+          <p>Amatpersonām uzliktos naudas sodus aizliegts maksāt no komersantu, iestāžu vai organizāciju līdzekļiem.</p>
+          <p>Sods par pārkāpumiem, kas uzlikts juridiskajai personai, maksājams no juridiskās personas līdzekļiem.</p>
+        </div>
+      </div>
+      
+      <label class="tile showhide" for="modal-28">
+        <div class="tile-number searchable">28</div>
+        <div class="tile-name searchable">Konfiskācija</div>
+        <div class="tile-text searchable">
+          Konfiscēto priekšmetu <span class="accent">bez atlīdzības nodod valsts īpašumā. Konfiscē</span>t var tikai <span class="accent">pārkāpēja</span> personiskajā īpašumā esošus <span class="accent">priekšmetus</span>, ja vien pārkāpums nav saistīts ar tirdzniecību, komercdarbību, muitas jomu, akcīzes precēm vai 149.24 panta 17. un 18. daļā paredzēto pārkāpumu.
+        </div>
+      </label>
+
+      <input class="modal-state" id="modal-28" type="checkbox" />
+      <div class="modal">
+        <label class="modal__bg" for="modal-28"></label>
+        <div class="modal__inner">
+          <label class="modal__close" for="modal-28"></label>
+          <h2>28.pants. Administratīvā pārkāpuma priekšmeta vai izdarīšanas rīka konfiskācija</h2>
+          <p>Administratīvā pārkāpuma priekšmeta vai izdarīšanas rīka konfiskācija nozīmē tā piespiedu bezatlīdzības nodošanu valsts īpašumā. Konfiscēt var tikai pārkāpēja personiskajā īpašumā esošus priekšmetus, bet lietās par pārkāpumiem tirdzniecībā, komercdarbībā, muitas jomā vai par pārkāpumiem saistībā ar precēm, kuras apliekamas ar akcīzes nodokli un šā kodeksa 149.24 panta septiņpadsmitajā un astoņpadsmitajā daļā paredzēto pārkāpumu, - arī citu personu īpašumā esošus priekšmetus.</p>
+          <p>Konfiskācijas piemērošanas kārtību un nekonfiscējamo priekšmetu sarakstu nosaka šis kodekss un citi normatīvie akti.</p>
+          <div class="saistiti">Saistītie normatīvie akti: <a href="https://likumi.lv/doc.php?id=89648#p149.24" target="_blank">149.<span class="prim">24</span> pants</a></div>
+        </div>
+      </div>
+      
+      
+      
+      
     </div>
     
     <script>

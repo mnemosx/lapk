@@ -1,0 +1,20 @@
+meklēt pēc panta numura
+meklēt pēc atslēgvārda
+
+režga skats
+rindu skats
+rādīt tikai atzīmētos
+
+kārtot pēc kārtas
+kārtot pēc popularitātes (pēc statistikas)
+
+headeris fiksēts mazajā versijā, kad pele uz panta, augšējā kreisajā stūrī rāda, kura nodaļa tā ir.
+
+
+lerning mode -- iespēja paslēpt panta Nr., nosaukumu, tekstu, tekstu bez atslēgvārdiem, atslēgvāŗdus
+
+būtu jāuztaisa, lai meklētājs meklē arī iekš modālā loga. Viņš droši vien meklē, ja pieliek searchable klasi pie div.modal vai div.modal-inner, taču rezultāti neparādās, jo modal logi taču ir paslēpti. Meklētājam būtu jāparāda label.tile arī, ja meklējamais atslēgas vārds ir iekš label.tile, proti, panta saīsinātai versijai piederošā div.modal loga, proti, pilnās paslēpās versijas.
+
+neritināt lapu, kad atvērts modālais logs
+
+meklēt arī pēc panta numura
