@@ -118,13 +118,6 @@ input::placeholder {
   transform: translateY(-4px);
   transition: all .25s ease-in;
 }
-@media (hover: none) {
-  .tile {
-    cursor: default;
-    transform: none;
-    transition: none;
-  }
-}
 .tile-number {
   height: 50px;
   width: 50px;
