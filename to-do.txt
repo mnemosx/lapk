@@ -18,3 +18,19 @@ būtu jāuztaisa, lai meklētājs meklē arī iekš modālā loga. Viņš droši
 neritināt lapu, kad atvērts modālais logs
 
 meklēt arī pēc panta numura
+
+Iphone 5s iOS 10.3.3 nav marginpadding starp panta div un nosaukuma div
+
+
+80.3
+149.6
+149.10
+148.18
+155
+246, 248, 248.1
+256.1
+257
+
+
+
+IDEJA - modulārs ziņojums, kurš jāsaliek no daļām un kurā tikai jāieraksta mainīgā info nominatīvā/nenoteiksmē
