@@ -17,7 +17,7 @@ būtu jāuztaisa, lai meklētājs meklē arī iekš modālā loga. Viņš droši
 
 neritināt lapu, kad atvērts modālais logs
 
-meklēt arī pēc panta numura
+precīzāk meklēt pēc panta numura
 
 Iphone 5s iOS 10.3.3 nav marginpadding starp panta div un nosaukuma div
 

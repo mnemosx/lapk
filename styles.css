@@ -16,13 +16,15 @@ html,
 body {
   height: 100%;
 }
+.selected {
+  overflow: hidden;
+}
 
 a {
   color: inherit;
   text-decoration: none;
   outline: none;
 }
-
 
 header {
   width: 1240px;

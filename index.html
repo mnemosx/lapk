@@ -921,6 +921,16 @@
         fieldClass: '.searchable'
       });
     </script>
+    <script>
+      $('input').change(function(){
+        if ($(this).is(':checked')) {
+          $('body').addClass("selected");
+        }
+        else {
+          $('body').removeClass('selected');
+        }
+      });
+    </script>
     
   </body>
 </html>
