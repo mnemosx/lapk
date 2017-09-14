@@ -34,3 +34,8 @@ Iphone 5s iOS 10.3.3 nav marginpadding starp panta div un nosaukuma div
 
 
 IDEJA - modulārs ziņojums, kurš jāsaliek no daļām un kurā tikai jāieraksta mainīgā info nominatīvā/nenoteiksmē
+
+OFFLINE
+
+
+text validator ziņojumiem?
