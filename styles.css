@@ -104,6 +104,7 @@ input::placeholder {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
+  position: sticky;   /* should help with position:fixed on modal__close */
 }
 .width-wrap:after {
   content: "";
@@ -160,7 +161,7 @@ input::placeholder {
   font-weight: bold;
   color: #002b36;
 }
-.tile-text, .modal p {
+.tile-text, .modal__inner > p {
   margin: 0 20px;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
@@ -174,22 +175,34 @@ input::placeholder {
   margin-top: 20px;
   font-size: 17px;
 }
-.modal p {
+.modal__inner > p {
   border: none;
 }
+
 .saistiti {
-  position: absolute;
-  bottom: 30px;
+  position: relative;
+  margin-top: 90px;
   margin-left: 10px;
   font-family: Lora, serif;
   font-size: 14px;
   font-style: italic;
   color: #002b36
 }
-.saistiti a:hover {
-  border-bottom: 1px solid #002b36
+.saistiti a {
+  display: block;
+  margin: 10px 0;
 }
-
+.saistiti a:hover {
+  text-decoration: underline;
+  -webkit-text-decoration-skip: ink;
+  text-decoration-skip: ink;
+}
+.saistiti-more-container h3, .saistiti-more-container p {
+  font-style: normal;
+  margin-top: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: .9em;
+}
 .accent {
   font-weight: 600;
   color: #154957;
@@ -251,14 +264,15 @@ input::placeholder {
   border-radius: 5px;
   padding: 1em 2em;
   height: 50%;
+  transform: translateY(0);
 }
 
 .modal__close {
-  position: absolute;
+  position: fixed;
   right: 1em;
   top: 1em;
-  width: 1.1em;
-  height: 1.1em;
+  width: 40px;
+  height: 40px;
   cursor: pointer;
 }
 
@@ -267,7 +281,7 @@ input::placeholder {
   content: '';
   position: absolute;
   width: 2px;
-  height: 1.5em;
+  height: 40px;
   background: rgba(38, 139, 210, 0.58);
   display: block;
   transform: rotate(45deg);
